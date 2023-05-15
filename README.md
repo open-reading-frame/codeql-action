@@ -3,6 +3,7 @@
 This action runs GitHub's CodeQL analysis (https://codeql.github.com/) on the provided input language.
 It can be used in a matrix-strategy job to perform CodeQL on multiple language at once.
 This action essentially abstracts the example CodeQL workflow into a composite action to simplify workflows running CodeQL.
+This action should only be used for relatively straightforward builds.
 
 ## Example
 
